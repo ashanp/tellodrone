@@ -20,6 +20,13 @@ public class Main {
     telloWorld.rotateRight(90);
     telloWorld.forward(400);
 
+    // adding a new path to the tello
+
+    telloWorld.setSpeed(50);
+    telloWorld.forward(250);
+    telloWorld.rotateRight(90);
+    telloWorld.forward(400);
+
     telloWorld.land();
   }
 
